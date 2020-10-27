@@ -1,0 +1,54 @@
+/*program menghitung jumlah dari deret 3,7,11,15,dst . . .*/
+/* Made with <3 by Isa Iman Muhammad*/
+		/* NIM = 20051397019 */
+			/* Kelas 2020A D4 Manajemen Informatika */
+			
+			
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+
+{
+	int Jumlah, Awal, Akhir;
+	float i;
+	cout<<"==============================="<<endl;
+	cout << "PROGRAM PENJUMAHAN DERET BILANGAN\n";
+	cout << "Deret 3,7,11,15,..., dst.\n";
+	cout<<"==============================="<<endl;
+
+	cout<<"\n \n"<<endl;
+	cout << "- Masukkan Bilangan Awal =>> ";
+	cin >> Awal;
+	cout << "- Masukkan Bilangan Akhir =>> ";
+	cin >> Akhir;
+	cout << endl;
+	
+	cout<<"\n \n"<<endl;
+	cout << " Deret Bilangan Kamu = "; 
+	
+	cout<<"\n \n";
+	cout << "vvvvvvvvvvvvvvvvvvvvvvvv";
+	cout << endl;
+	for(int i = Awal; i<=Akhir; i+=4){
+		cout << i << endl;
+		Jumlah+=i;
+	}
+	
+	cout << "^^^^^^^^^^^^^^^^^^^^^^^^"<< endl;
+	cout << endl;
+	
+	
+	cout << "\n";
+	cout<<"=========================================="<<endl;
+	cout<<"\n";
+	cout << "HASIL PENJUMLAHAN DERET BILANGAN =>> "<<Jumlah;
+	cout<<"\n \n";
+	cout<<"=========================================="<<endl;
+	cout << endl;
+	cout << endl;
+	
+	return 0;
+}
