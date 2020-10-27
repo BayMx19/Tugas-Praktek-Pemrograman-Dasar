@@ -1,0 +1,30 @@
+/* Program Tabel Perkaliann*/
+	/* Made with <3 by Isa Iman Muhammad*/
+		/* NIM = 20051397019 */
+			/* Kelas 2020A D4 Manajemen Informatika */
+
+
+#include<iostream>
+#include<conio.h>
+#include<iomanip>
+using namespace std;
+	main()
+		{
+			int i,J,n;
+			cout<<"==============================="<<endl;
+			cout<<"    PROGRAM TABEL PERKALIAN"<<endl;
+			cout<<"==============================="<<endl;
+			
+			cout<<"\n";
+			
+			for (int i=1; i<=10; i++){ 
+	
+		for (int J=1; J<=10; J++) { 
+		
+			cout << " " << i*J << "\t ";
+		}
+	cout << "\n";
+	}
+	return 0;
+			getch();
+		}
